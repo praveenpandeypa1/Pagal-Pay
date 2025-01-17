@@ -1,0 +1,92 @@
+Bootstrap:it is frontend framework that consist of rich styles for css and scripts for javascript and all are already 
+          written and hust you have to pick it from there and have to use in your system:
+
+          *Created by MARK OTTO AND JACOB THRONTON AT TWITTER IN 2011:
+        
+KEY FEATURES OF BOOTSTRAP:
+*Responive deisgn: Automatically adjust to diffrent screens sizes(tab, desktop).
+*grid system:uses a 12-cloumn gris system to create flexible layout. it allows you to organizes content into rows and cloumns:
+*pre-disgned componensts:it provide navbar, buttons, dropdowns,modals,cards,alerts and other UI componensts:
+*Customizable:Bootstrap can be customized uing SAAS variables to change its apperance to match your branding:
+*javascript plugins: include ready to use plugins for carousals. modals, tooltips, popovers and more:
+*utility classes: provide utility classes for spacing , alignment visiblity,colors and more:
+
+
+*BOOTSTRAP GRID SYSTEM:
+.Container: the .container class is used to create a responsive fixed width container . for full width container use .conatiner-fluid:
+
+.Rows and Columns: the .row class is used to create a row and .col-* is used to  create columns the grid system divides the screen into 12 equal parts:
+
+.Responsive Grid:You can adjust columns size based on screen size using columns like .col-sm-*, .col-md-*,.col-lg-*, .col-xl-*.
+
+Commany uesd componensts:
+buttons navbar forms cards alert modals
+
+JAVASCRIPT PLUGINS:
+bootstrap includes sevral javascript componsnts for adding the intercativity:
+eg:
+Modal: a popup dialog box:
+Carousal: An image slider:
+Tooltip: Small pop-up info box that appers when hovering over ele:
+popover:similar to tolltip, but can contain more complex content:
+Dropdown:provides dropdown menus for navigation:
+
+CUSTOMIZATION:
+SAAS VARIABLES: bootstrap is built using saas which allow you to cutomize the framework deafylt styles by overriding SAAS variables:
+themes:Yoi can create custom themes by modigying bootsrap default like colors typography and spacing:
+Bootstrap customizer:bootstrap has a customizatio tool that lets you customize the compnents need of your project:
+
+Resposive disgns in bootstrap:
+.Bootstrap grid system and media query helps create designs that adapt to diff screen size:
+.you can hide or show content on specific screen size using classes like .d-None,.d-sm.block, .d-md-none etc:
+
+Breakpoints:
+extra small: <576px(NO CLASS required)
+small: >=576px
+medium:>=768 px
+large: >=992px:
+extra large: >=1200px:
+
+MOBILE FIRST DEIGN:
+Bootstrap is based on mobile first design meaning the default styles are applied to mobile divces and that let you add more styles for larger screens using brrakpoints:
+
+BOOTSTRAP 4 VS BOOTSTRAP 5
+
+BOOTSTRAP 4: included the flexbox grid system cards and utility classes:
+Bootsrap 5: removed jQuery dependency, added utilities for spacing , borders, shadow etc: and introduced new components like offccanvas and accordion:
+
+INSTALLATION METHOD:
+.Via CDN: include the css and javascript file directly using CDN(Content delivety network):
+.Via npm: install via npm for use in projects that require a build process:(npm install bootstrap)
+. via Download:
+doenload the compiled bootstrap files and include them in your project:
+
+
+TYPOGRAPHY IN BOOTSTRAP:
+hedaing classes:h1 to h6 are styled automaticaly:
+display headings:.display-1 to .display-6 for larger headings:
+text-utilites: classes like .text-center, text-left,.text-right, .text-uppercase etc;
+lead text: .lead class for larger prominenet text:
+Blockquotes:use .Blockquotes for quotes and .blockquote-footer for citation:
+
+
+bootstrap form:
+form layouts:horizonatl vertical and inline forms using .form-horizontal, .form-group, form-row .form-inline;
+input type:clases like .form-control, .form-check, .form-switch for checkbox and switchses:
+input  types : classes like .form-control, .for,-check , .form-switch for checkboxes:
+validation states:custom feedback with .is-incalid, is-valid, and aria-descibeadly attributes:
+input gropu: prepend or append text buttons using .input-group-prepend , .input-group-append.
+
+**The name BOOTSTRAP i web development comes from the phrase pulling yourself uo by ur bootstraos:
+which means solving a problem using own resource without external helop: this framework was develop by mark otto and jacob  thronton at twitter as a tool to ensure consistency across thier internal projects by providing the reusavle , modular and self contained components;
+
+***the bootstrap symbolizes the idea of empowering the developers to start building with tools to start building application with ease of efficiency:
+
+****TAILWIND CSS*******
+ the name is tailwind because it is used in avaiation and sailing. A tailwind is a wind that blows in the direction.
+ helping to push the vehicle forwad and move forwad and faster with less effort. the metaphos is perfct for css framework designed to 
+ ..speed developemt:by providing utility-first class that reduce the ammount pf custom csss you nedd to write:
+ ..push your workflow forwad:by allowing you to design directly in yout html without switching between multiples files:
+
+ The create of tailwind CSS chooe to reflwct how the framework acts as tailwind for developers:, making it easier and faster to build modern responsive web designs . it simplifies complex styling with minimal effort enabling a more steamlined development experienec:
+ 

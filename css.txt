@@ -1,0 +1,275 @@
+CSS=cascading styleshet :it is an important conscpt that is used to desgin the html structure and responsible
+for structure and layout across various devices and many more:
+*it allow you to control layout design and responsiveness of your website:
+
+1) CSS Syntax:
+ selectors: these are used to target html element:
+ properties value: the deisgn you wnat to apply:eg: color, font, margin:
+ value: these are the value of properties like color=red and font=tebjsbh
+
+
+<link>=this is used to link the file external to current html file:
+<rel=stylesheet>>=this basically tells that the file is stylesheet:
+and then href=is used to link the file:
+
+*font-size= this is used to control or used to increase ad decrese the size of character:
+*Px= it stand for pixel and it is smallest unit for mesurement for screen resolution:
+
+
+//SELECTORS:
+*id selector:target all element of specific id:example #id{}
+*Element selector:target all element of type:eg p{}
+*class selector: target all element with specific class name:
+*desedent selector=:target element nested within other element eg:div p{ }
+*Attribute selector:it select all element with specific attribute:[type="text"]{}
+
+
+3:BOX MODEL:=every html elemet is considered as box in css: box model consist of following element:
+content:the actual content of html element:(text, images);
+padding:the space between the content and border.
+Border:Sorrounds the padding
+Margin:the outermost space sorrounding the element:
+
+.box{
+    margin://this is the space outermost from the screeen
+    font-size_//the size of text;
+    border//to define the border 
+    border-color:you can define the color of border and the length of border:
+    text-aling:center for placing the text in center:
+}
+
+//Positining in CSS:
+*this alllow you to place element on the specific page in browser:
+*static:Default posistining:
+*Relative:posistioned value to its normal position:
+*Absloute:position value to its nearest posistioned ancestor:
+*fixed:position value to its nearest browser window:
+*sticky: a hybrid of fixed and relative positining:
+
+
+*FLEXBOX:
+*when you create and make container and you want and efficent way and layout to handle the inside element of container them you use flexbox:
+*in simple terms flexbox is an efficent way of providing the space and hanfling the layout and deisgn of web pages:
+
+*dispaly:flex= turns a container into flex container:
+*justify-content:=alingns item alomg the main axis(horizonatl or vertical):
+*align-items:align items along the cross-axis
+*flex-direction:define the direction of flex in axis(row or coloumn)
+
+
+*GRID LAYOUT:
+CSS provide a 2D way of Grid based layout system:
+*display-grid:turns a container into grid container:
+*grid-template-coloumns:define the number of coloumns and thier width
+*grid template-rows: define the number of rows and their hieght:
+*grid-cloumn or grid-row: it allow to place the content in specific row and coloumn:
+
+**Responsive design:
+it basically allow your website to be able to be seen from all device including mobile, tablets, desktop and many more:
+ Media Queries: it is used for this purpose: and used to apply style based on viewport size:
+ 
+
+ *// Measurement unit in css
+ *px=pixel these are the common unit of measuremnet in css and they are used to measure the screen resolution:
+ *pt=points they reprsent the points and used with font-size:1 point=1/72 of an inch and used in typograpgy:
+ *pc=picas one picas=12 points they are used with Media
+ *cap=these are text transform property of text it will convert the first text of eaxh word in uppercase
+     :eg:text-transform=capitalize:
+*rcap:
+
+*justify-content=center; //it will place taxt in center horizontally
+*align-text:it will place the text in center
+
+//CSS NOTES EVERYTHING:
+1:SELECTORS: it i used to sleect and style elements
+types:=
+Universal selectors:* {}
+type selector:h1 {}
+class selector: .classname {}
+ID selector:#idname {}
+attribute selector:input[type="text"] {}
+pseudo-classes :hover,:first-child
+pseudo-eleemnts: ::before, ::after
+
+2:BOX MODEL:
+componensts:
+ content:=the actual content withing an element:
+ padding:=space between the content and border:
+ Border=sorround adding(or content id no padding);
+ Margin:space outside the border between elements:
+ formula for total width/hieght= total width=content width+padding+border+margin;
+
+3:Positining
+ static:=Deafult posistining:
+ Relative:=Position relative to its normal posistion:
+ Absloute: posistined realeted to the nearest position ancestor:
+ Fixed: Position relative to the viewposrt:
+ sticky:toggles between relative and fixed based on scroll:
+
+4:display
+ Inline:=No line break, width and hieght ignored(<span>,<a>) 
+ Block:Line break before and after(<div>,<p>):
+ Inlne block:No line break, respects width/hieght.
+ None:Hides the element:
+
+5:FlexBox:
+ used for 1-D layout(rows/coloumns)
+ properties:
+ display:flexboxjustify-content, align-items flex-direction, flex-wrap, align-content
+
+6:Grid:
+ used for 2D layout(rows and columns)
+ properties :
+ display:Grid
+ grid-template-coloumns,grid-template-rows, gap-place-items
+ 
+7: Specify:
+  determine which style apply when multiple rule match an element:
+  inline styles>id's>classes>elements>Universal selectors:
+
+8:colors and Units:
+  colors:
+  named colors:red, blue
+  hexadecimal:#ff0000
+  RGB/rgba:rgb(255,0,0)
+  
+  units:
+  Absoloute:px,cm,mm.
+  relative:%,em,rem,vw,vh.
+
+9:Media Queries:
+  enable reponsive design:
+
+
+Z-index and stacking context:
+ z-index=Control the stack order of ele:
+ higher values are in front of lower ones:
+ Stacking context: created by elements with position other than static and z-indez value:
+
+ eg: div{
+    position:relative;
+    z-index:10
+ }
+
+12:overflow:
+  controls how content is handled when it  exceed container:
+  values:
+  visible:overflow is visible:
+  hidden:content is clipped:
+  scroll: scrollbars are added:
+  auto:scrollbars appear when necessary:
+
+13:Float and clear:
+float:used to place elements beside each other:
+ eg: img{
+    float:left;
+ }
+ clear:prevents elements from wrapping around floated elements:
+
+14:Clipping and Masking:
+  clip-paths:clip part of an element based on shape:
+  eg: clip-path:circle(50%);
+  mask:usage an image or gradient to control element visisbility:
+
+15:visiblity vs display
+   visisblity:hidden: hides the ele but keeps its space:
+   display:None: removes the ele from the layout:
+
+16:CSS variables(Custom properties);
+  Reusable values in css:
+  eg:
+  :root{
+    --main-color:#3498db;
+  }
+  p{
+    color:var(--main-color);
+  }
+
+17:Shadows
+box-shadow:Adds shadow to elements:
+ eg:box-shadow:2px 2px 5px rgba();
+text-shadow:adds shadow to text.
+text-shadow:1px 1px 2px black;
+
+18:Gradiesnts:
+ Linear Gradient and radial gradient:
+
+19:FILTER:
+apply graphical effects like blur brightness etc;
+ eg:img{
+    filter:blur(5px) brightness(1,2);
+
+ }
+20:transformation:
+   used to rotate, scale, skew or translate elements
+   eg:
+   div{
+    transform:rotate(45deg) scale(1.5);
+   }
+
+21:Psudo-elements nd content:
+ used to style parts of an elementexample with content property:
+ p::before{
+    content:"Note:";
+    color:red;
+ }
+
+ SAAS:
+  Syntatically awesome stylesheets:are css preprocess that extends css by adding features that make writing
+   stylesheet easier and more maintainable. both preprocessor help developers write more organized and dynameic styles and variables, nesting, function and mixins.
+    file extension: .scss or .SAAS
+    store value for reuse:
+    write nested rules to reflect html structure:
+    mixins: reusable blocks of styles
+    function and operation: perform calculation directly in the stylesheet:
+    compiling:requires a compiler like saas or tools like webpack:
+
+LESS(leaner style sheets)
+File extenion:.LESS
+featuer:
+variables: nesting, mixin, function and operation
+Compiling: less is compiled using tools like lessc or integrated build systems:
+
+
+ COMPARISON OF SAAS VS LESS:
+
+FEATURE:               SAAS                      LESS
+Syntax:                SCSS(PREFERED SASS)       less
+ variables:            $variable                 @variable
+ mixins:               @mixin and @include       .mixin-name
+ community support:    larger and widely adapted  smaller but still pouplar:
+ Depenedenecies:       standalone:                  built on javascritpt"
+
+Which to use:?
+SAAS= is generally prefered due to its rich feature set and largers community supprt:
+Less: it is simpler and can be more suitable for projects already using javascript-havry ecosystem:
+
+
+//MORE ADVANCED TOPICS:
+1 CSS GRID IMPLICIT VS EXPLICIT GRIDS:
+ explicit Grid: define using grid-template-rows and grid-template-coloumns;
+ implicit-Grid:Automatically created by the browser when itesm exceed explicit defination
+
+2:CSS SUBGRID:
+ Subgrid allows child elements to share the parents grid coloumns and row lines:
+
+3:CSS SHAPES:
+ use shape-outside to wrap text around cutom shapes:
+
+4: Aspact ratio:
+  control the aspact ratio of elenets:
+
+5:Scroll snap:
+ create smooth shapping behaviour for scrollable elementsL:
+ 6:CSS Houdini:
+ Acess and modify the css object model(CSSOM) using javascript:
+ custom properties, paint API and layout API are part of Houdini;
+
+Gradient:
+it is smooth transition between two or more coloumns .Gradients can be used to create visually appealing backgoruns and butyons and border or any desgin elements without using images:
+ Liner gradient: crate a gradient along a strainght line:
+ Radial grdaient:create a gradient that radiates from an origin point circular or eliptical
+ conic gradient:create a gradient that is rotade arrounf a central point:
+
+ Gradient are powerful tools for creating the moern web designs:
+ 

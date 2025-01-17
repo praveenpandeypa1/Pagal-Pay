@@ -1,0 +1,80 @@
+html=hypertaxt markup language
+<p>paragraph tag comes with opening and cloing braces
+<br> this tag is used to break the lines and comes with only opening braces no closing tag there
+<hr>for adding the horizonatl line betwwen text or paragraph
+<h1> to <h6> there are 6 heading s with h1 being the largest and h6 bieng the smallest:
+<b><strong> these are the two way for making the text bold
+<i><em> therse are the two tag that are used to make line itallc:
+<em> emphasized text or by defual italic and it display the stressed meaning eithin text:
+<u> thise is the tag that is used to make line underline
+<span> this is inline tag for styling in line:this is use for styling purpose spacially for smaller area:
+<a> this is anchor tag that is used to add links in betwween and comes with href=" here link will be given"
+
+//list are of two types and one is additionoL
+<ul>unordered list by default circle:
+<ol>ordered list by default value will be 1 2 3
+<li> this is used to display list item
+<dl> defination list
+<dt> inside dl we have defination term of whom we will define:
+<dd>this is used to define the difination of defination term:
+
+//tables
+<table> this comes with opening and closing braces and tell everything about tables:
+<tr> this defines about table row
+<th> this is table head and this show the hreading
+<td>. this is reprsent the table cells and inde whom we fill all data;
+
+//images
+<img src="" alt="descropyin"> this is image tag that comes with sorce attribute about the source of image and alt
+for adding the description you want to add description to your image and can assign hieght and width to your image:
+
+//form
+<form> this comes with opeing and closing braces athis tells about the form
+<input> field for input of text number or data
+<textarea>multiline text input
+<button> a clickable button
+<select> and <option> a dropdown list for searching the item:
+<label> for form elmeent
+
+//html atrributes
+<img src="" alt=""> imge tag with source of image and with alt showing a descriptive content when no image get displayed:
+<id> unique identifier for elmeent
+<class>specifies a class name for styling purpose
+<href> specifies the destination url in anchor tag
+<src> specifies the source of image
+alt : descrtptive text for image when they can not be displayed:
+type: specifies the input type weaher is text password or any thing
+value: define the value of form elemnt whateber the value we will put inside:
+<input type="text"> <input type="email"><input type="password">
+<form method="get" or "post"> it define the method of form and thier submission:
+<textarea> it is used for multiline input:
+
+
+//HTML API AND FEATURES
+<canvas>for drwaing graphics via javascript
+<audio>for audio
+<video> for adding the video or multimedia
+Geolocation: allow for the retrival of user current location
+LocalStorage and Sessionstorage: allow for the storage of data in browser:
+Websockets: allow bidirectionol communication with server:
+
+
+//
+Anchor link(#) for scrolling to the section within the same page
+
+//Meta tages
+<meta> it provide the meta data about html document , such as charset, author viewport and settings for mobile responsiveness
+
+<meta charset="utf-8">specifies the chacater encoding:
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> it ensure the proper scaling on mobile devices:
+
+<html lang="en"> langugae of html document
+
+//Aceessiblity:
+* aria* attribute: helps acessibility for screen readers:
+alt text for images:it provide an alternative text for given image for visually impared users:
+
+//Sectionol element and tags:
+<main> it include the main area of text and box by excluding the header and footer and sidebars:
+<section>: a thematic group of content such as chapter or a part of doucumebt:
+<article> : a peice of self contained conetnt that could be distributed independently:

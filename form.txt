@@ -1,0 +1,24 @@
+<form action="post.php"> here we are decaling the form and with action that when form will be submittend where the data will go:
+<label for="name">name</label>//this is used to give the label for the given name:
+*action=it will tell what action you will perform after form is submitted:
+*method= this tells means the method is either get or post:
+*GET= data is appended to the URL brower in the adress bar:
+*POST:=data is sent in the request body and making it more secure and sensitive:
+
+*<input type="text"> for single line text input:
+*<input type="password"> used for entering the password an pasword is obscured:
+*<input type="radio"> used only when option form the given set of ootion can be selevted:
+*<input type="checkbox"> used for selecting the multiple option:
+*<input type="submit"> a type of submit bitton that submit data to the server when button will be presed:
+*<input type="textara"> this is used for multiline text input:
+*select and option used for selection from the list of avilable options:
+*<input type=file:> means the data you are uploading is of file type ans especially comes for uploading the file:
+*<input type="hidden" name ="praveneh" id=1234>  this is used when you dont want to display the info to anyone:
+
+
+//FORM VALIDATION:html 5 provide built in formm validation method like "minlength,maxlength required pattern;
+
+*Placeholder=for putting the value inside the given box to reprsent th evalue and format we have to enter:
+
+**Label:this is the discriptive description of the text and used to provide user friendly description of form input:
+for=it specifies that which attribute element is associated with lab by  matching its id:
