@@ -13,7 +13,7 @@ html=hypertaxt markup language
 //list are of two types and one is additionoL
 <ul>unordered list by default circle:
 <ol>ordered list by default value will be 1 2 3
-<li> this is used to display list item
+<li> this is used to display list item  
 <dl> defination list
 <dt> inside dl we have defination term of whom we will define:
 <dd>this is used to define the difination of defination term:
