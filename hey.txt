@@ -22,7 +22,7 @@ html=hypertaxt markup language
 <table> this comes with opening and closing braces and tell everything about tables:
 <tr> this defines about table row
 <th> this is table head and this show the hreading
-<td>. this is reprsent the table cells and inde whom we fill all data;
+<td>. this is reprsent the table cells and inde whom we fill all data;  
 
 //images
 <img src="" alt="descropyin"> this is image tag that comes with sorce attribute about the source of image and alt
